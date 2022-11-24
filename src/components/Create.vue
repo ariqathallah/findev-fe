@@ -13,6 +13,7 @@ export default {
         <input
           type="text"
           id="title"
+          required
           class="bg-white text-gray-800 outline-none p-2 mb-6 border border-gray-300 rounded focus:ring-blue-base focus:border-blue-base"
         />
         <!-- Description -->
@@ -21,6 +22,7 @@ export default {
         >
         <textarea
           id="description"
+          required
           class="h-72 bg-white text-gray-800 outline-none p-2 mb-6 border border-gray-300 rounded focus:ring-blue-base focus:border-blue-base"
         ></textarea>
         <!-- Post Image -->
@@ -47,6 +49,7 @@ export default {
         <input
           type="text"
           id="stack"
+          required
           class="bg-white text-gray-800 outline-none p-2 mb-6 border border-gray-300 rounded focus:ring-blue-base focus:border-blue-base"
         />
         <!-- Deadline -->
@@ -56,6 +59,7 @@ export default {
         <input
           type="date"
           id="deadline"
+          required
           class="bg-white text-gray-800 outline-none p-2 mb-6 border border-gray-300 rounded focus:ring-blue-base focus:border-blue-base"
         />
 

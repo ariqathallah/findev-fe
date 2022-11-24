@@ -19,6 +19,7 @@ export default {
     <div class="px-4 py-3 flex flex-col justify-between h-3/5">
       <div class="flex justify-between items-center">
         <h1 class="text-3xl font-bold">Cryptoko</h1>
+        <!-- status -->
         <div
           class="bg-green-500 text-white font-light text-sm rounded-md px-3 py-1"
         >

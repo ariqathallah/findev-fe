@@ -55,7 +55,7 @@
         <p>
           Already have an account?
           <span class="text-blue-600 underline"
-            ><a href="/login">Login</a></span
+            ><router-link to="/login">Login</router-link></span
           >
         </p>
       </div>

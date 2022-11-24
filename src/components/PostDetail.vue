@@ -49,7 +49,7 @@ export default {
           </div>
         </div>
       </div>
-      <!-- Open/Finished/In Progress -->
+      <!-- Status: Open/Finished/In Progress -->
       <div class="bg-green-500 text-white rounded-md h-fit w-fit px-3 py-1">
         Open
       </div>

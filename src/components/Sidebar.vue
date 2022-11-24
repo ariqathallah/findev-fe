@@ -83,12 +83,12 @@ export default {};
       </div>
 
       <!-- Logout -->
-      <a
-        href="/login"
+      <router-link
+        to="/login"
         class="text-lg bg-white border border-gray-300 w-full rounded-md px-6 py-3 text-center cursor-pointer hover:bg-blue-base hover:border-blue-base active:bg-blue-base flex justify-center items-center"
       >
         <p>Logout</p>
-      </a>
+      </router-link>
     </nav>
   </div>
 </template>

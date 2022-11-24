@@ -39,7 +39,7 @@
         <p>
           Do not have an account?
           <span class="text-blue-600 underline"
-            ><a href="/register">Register</a></span
+            ><router-link to="/register">Register</router-link></span
           >
         </p>
       </div>

@@ -31,17 +31,17 @@ export default {
           <div class="flex justify-between">
             <div class="flex">
               <div
-                class="bg-white text-sm border border-gray-300 rounded-md px-2 py-1 mr-2"
+                class="bg-white border border-gray-300 rounded-md px-2 py-1 mr-3"
               >
                 React
               </div>
               <div
-                class="bg-white text-sm border border-gray-300 rounded-md px-2 py-1 mr-2"
+                class="bg-white border border-gray-300 rounded-md px-2 py-1 mr-3"
               >
                 Go
               </div>
               <div
-                class="bg-white text-sm border border-gray-300 rounded-md px-2 py-1 mr-2"
+                class="bg-white border border-gray-300 rounded-md px-2 py-1 mr-3"
               >
                 MongoDB
               </div>
@@ -51,7 +51,7 @@ export default {
       </div>
       <!-- Status and Edit & Delete -->
       <div class="flex flex-col justify-between items-end">
-        <!-- Status -->
+        <!-- Status: Open/Finished/In Progress -->
         <div class="bg-green-500 text-white rounded-md h-fit w-fit px-3 py-1">
           Open
         </div>
@@ -141,12 +141,12 @@ export default {
               <button
                 class="ml-2 border border-green-500 px-2 py-1 rounded hover:bg-green-500 hover:text-white"
               >
-                accept
+                Accept
               </button>
               <button
                 class="ml-2 border border-red-500 px-2 py-1 rounded hover:bg-red-500 hover:text-white"
               >
-                reject
+                Reject
               </button>
             </div>
           </div>
@@ -165,12 +165,12 @@ export default {
               <button
                 class="ml-2 border border-green-500 px-2 py-1 rounded hover:bg-green-500 hover:text-white"
               >
-                accept
+                Accept
               </button>
               <button
                 class="ml-2 border border-red-500 px-2 py-1 rounded hover:bg-red-500 hover:text-white"
               >
-                reject
+                Reject
               </button>
             </div>
           </div>
@@ -189,12 +189,12 @@ export default {
               <button
                 class="ml-2 border border-green-500 px-2 py-1 rounded hover:bg-green-500 hover:text-white"
               >
-                accept
+                Accept
               </button>
               <button
                 class="ml-2 border border-red-500 px-2 py-1 rounded hover:bg-red-500 hover:text-white"
               >
-                reject
+                Reject
               </button>
             </div>
           </div>
