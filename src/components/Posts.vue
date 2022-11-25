@@ -14,9 +14,5 @@ export default {
     <Post />
     <Post />
     <Post />
-    <Post />
-    <Post />
-    <Post />
-    <Post />
   </div>
 </template>

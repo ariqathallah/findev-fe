@@ -1,4 +1,13 @@
-<script></script>
+<script>
+export default {
+  name: "Register",
+  methods: {
+    handleRegister() {
+      console.log("asdaksdjhsas");
+    },
+  },
+};
+</script>
 
 <template>
   <div class="flex items-center justify-center h-screen bg-blue-base">
@@ -47,7 +56,8 @@
         <!-- Register Button -->
         <button
           type="submit"
-          class="bg-blue-base w-full text-gray-800 text-md py-2 rounded hover:bg-blue-600 transition-colors hover:text-white mt-2 mb-5"
+          @click.prevent="handleRegister"
+          class="bg-blue-500 w-full text-white text-md py-2 rounded hover:bg-blue-800 transition-colors mt-2 mb-5"
         >
           Register
         </button>

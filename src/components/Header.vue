@@ -4,7 +4,7 @@ export default {};
 
 <template>
   <div
-    class="w-full bg-blue-base h-24 flex items-center justify-between px-7 sticky top-0"
+    class="w-full bg-blue-base h-24 flex items-center justify-between px-8 sticky top-0"
   >
     <!-- breadcrumbs  -->
     <p class="text-xl font-medium">Home</p>

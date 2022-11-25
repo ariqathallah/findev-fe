@@ -1,14 +1,16 @@
 import { createRouter, createWebHistory } from "vue-router";
-import Dashboard from "../views/Dashboard.vue";
-import Login from "../views/Login.vue";
-import Register from "../views/Register.vue";
 
-import Posts from "../components/Posts.vue";
-import PostDetail from "../components/PostDetail.vue";
-import MyProjects from "../components/MyProjects.vue";
-import MyProjectDetail from "../components/MyProjectDetail.vue";
-import Create from "../components/Create.vue";
-import User from "../components/User.vue";
+// lazy loading
+const Login = () => import("../views/Login.vue");
+const Register = () => import("../views/Register.vue");
+const Dashboard = () => import("../views/Dashboard.vue");
+
+const Posts = () => import("../components/Posts.vue");
+const PostDetail = () => import("../components/PostDetail.vue");
+const MyProjects = () => import("../components/MyProjects.vue");
+const MyProjectDetail = () => import("../components/MyProjectDetail.vue");
+const Create = () => import("../components/Create.vue");
+const User = () => import("../components/User.vue");
 
 const routes = [
   {

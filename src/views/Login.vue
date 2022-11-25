@@ -1,4 +1,8 @@
-<script></script>
+<script>
+export default {
+  name: "Login",
+};
+</script>
 
 <template>
   <div class="flex items-center justify-center h-screen bg-blue-base">
@@ -31,7 +35,7 @@
         <!-- Login Button -->
         <button
           type="submit"
-          class="bg-blue-base w-full text-gray-800 text-md py-2 rounded hover:bg-blue-600 transition-colors hover:text-white mt-2 mb-5"
+          class="bg-blue-500 w-full text-white text-md py-2 rounded hover:bg-blue-800 transition-colors mt-2 mb-5"
         >
           Login
         </button>

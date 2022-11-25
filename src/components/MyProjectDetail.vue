@@ -5,7 +5,7 @@ export default {
 </script>
 
 <template>
-  <div class="border border-gray-300 bg-gray-50 rounded-md p-6 shadow-sm mx-8">
+  <div class="border border-gray-300 bg-gray-50 rounded-md p-6 mx-8">
     <div class="flex justify-between">
       <div class="flex">
         <!-- Image -->
@@ -58,14 +58,16 @@ export default {
         <!-- Edit & Delete -->
         <div class="flex flex-col items-end">
           <!-- Edit -->
-          <button class="my-1 hover:text-blue-700 flex items-center">
+          <button class="mt-4 hover:text-blue-700 flex items-center">
             <p>Edit Project</p>
-            <p class="px-2 rounded-md ml-2 border border-blue-500">E</p>
+            <!-- edit icon -->
+            <span class="ml-1 material-symbols-outlined"> edit_square </span>
           </button>
           <!-- Delete -->
-          <button class="my-1 hover:text-red-700 flex items-center">
+          <button class="mt-4 hover:text-red-700 flex items-center">
             <p>Delete Project</p>
-            <p class="px-2 rounded-md ml-2 border border-red-500">X</p>
+            <!-- delete icon -->
+            <span class="ml-1 material-symbols-outlined"> delete </span>
           </button>
         </div>
       </div>
@@ -99,7 +101,7 @@ export default {
     <!-- Member and Request -->
     <div class="flex">
       <!-- Member -->
-      <div class="basis-2/3">
+      <div class="basis-7/12">
         <p class="font-semibold text-2xl mb-4">Member</p>
         <!-- User -->
         <div class="flex items-center mb-3">
@@ -108,7 +110,7 @@ export default {
             alt=""
             class="w-12 h-12 rounded-full border border-gray-300 border-radius: 50%;"
           />
-          <p class="text-xl ml-4">El Mundo</p>
+          <p class="text-xl ml-4">Eric Cantona</p>
         </div>
         <!-- User -->
         <div class="flex items-center mb-3">
@@ -117,12 +119,12 @@ export default {
             alt=""
             class="w-12 h-12 rounded-full border border-gray-300 border-radius: 50%;"
           />
-          <p class="text-xl ml-4">El Mundo</p>
+          <p class="text-xl ml-4">Paul Pogba</p>
         </div>
       </div>
 
       <!-- Requests -->
-      <div class="basis-1/3">
+      <div class="basis-5/12">
         <p class="font-semibold text-2xl mb-4">User Requests</p>
         <!-- Request By a User -->
         <div>
@@ -134,7 +136,7 @@ export default {
                 alt=""
                 class="w-12 h-12 rounded-full border border-gray-300 border-radius: 50%;"
               />
-              <p class="text-xl ml-4">El Mundo</p>
+              <p class="text-xl ml-4">Eden Hazard</p>
             </div>
             <!-- Accept or Reject Button -->
             <div>
@@ -158,7 +160,7 @@ export default {
                 alt=""
                 class="w-12 h-12 rounded-full border border-gray-300 border-radius: 50%;"
               />
-              <p class="text-xl ml-4">El Mundo</p>
+              <p class="text-xl ml-4">Frank Lampard</p>
             </div>
             <!-- Accept or Reject Button -->
             <div>
@@ -182,7 +184,7 @@ export default {
                 alt=""
                 class="w-12 h-12 rounded-full border border-gray-300 border-radius: 50%;"
               />
-              <p class="text-xl ml-4">El Mundo</p>
+              <p class="text-xl ml-4">Didier Drogba</p>
             </div>
             <!-- Accept or Reject Button -->
             <div>

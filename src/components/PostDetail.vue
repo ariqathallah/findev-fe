@@ -5,7 +5,7 @@ export default {
 </script>
 
 <template>
-  <div class="border border-gray-300 bg-gray-50 rounded-md p-6 shadow-sm mx-8">
+  <div class="border border-gray-300 bg-gray-50 rounded-md p-6 mx-8">
     <div class="flex justify-between">
       <div class="flex">
         <!-- Image -->
@@ -17,7 +17,7 @@ export default {
 
         <div class="ml-4 flex flex-col justify-between">
           <!-- Title -->
-          <h1 class="font-bold text-5xl">Cryptoko</h1>
+          <h1 class="font-bold text-5xl">Cryptoko Lorem</h1>
           <!-- Owner -->
           <div class="flex items-center my-4">
             <img
@@ -31,17 +31,17 @@ export default {
           <div class="flex justify-between">
             <div class="flex">
               <div
-                class="bg-white text-sm border border-gray-300 rounded-md px-2 py-1 mr-2"
+                class="bg-white border border-gray-300 rounded-md px-2 py-1 mr-3"
               >
                 React
               </div>
               <div
-                class="bg-white text-sm border border-gray-300 rounded-md px-2 py-1 mr-2"
+                class="bg-white border border-gray-300 rounded-md px-2 py-1 mr-3"
               >
                 Go
               </div>
               <div
-                class="bg-white text-sm border border-gray-300 rounded-md px-2 py-1 mr-2"
+                class="bg-white border border-gray-300 rounded-md px-2 py-1 mr-3"
               >
                 MongoDB
               </div>
@@ -82,13 +82,16 @@ export default {
 
     <!-- Report post and Join Button -->
     <div class="flex justify-between items-center">
-      <button class="flex items-center text-gray-400 hover:text-red-700">
-        <p class="border border-gray-300 px-2 rounded-md">R</p>
-        <p class="ml-1">Report Post</p>
+      <!-- Report -->
+      <button class="flex items-center text-gray-500 hover:text-red-700">
+        <!-- report icon -->
+        <span class="material-symbols-outlined"> error </span>
+        <p class="ml-0.5">Report Post</p>
       </button>
+      <!-- Join -->
       <button
         type="submit"
-        class="bg-blue-base w-fit px-4 py-1 font-medium text-gray-900 text-md rounded-md hover:bg-blue-600 transition-colors hover:text-white"
+        class="bg-blue-base w-fit px-6 py-2 text-gray-900 text-md rounded-md hover:bg-blue-600 transition-colors hover:text-white"
       >
         Join
       </button>
