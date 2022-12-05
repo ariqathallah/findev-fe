@@ -10,7 +10,7 @@ const PostDetail = () => import("../components/PostDetail.vue");
 const MyProjects = () => import("../components/MyProjects.vue");
 const MyProjectDetail = () => import("../components/MyProjectDetail.vue");
 const Create = () => import("../components/Create.vue");
-const User = () => import("../components/User.vue");
+const Account = () => import("../components/Account.vue");
 
 const routes = [
   {
@@ -34,7 +34,7 @@ const routes = [
         component: Posts,
       },
       {
-        path: "/posts/asd",
+        path: "/posts/postID",
         name: "PostDetail",
         component: PostDetail,
       },
@@ -44,7 +44,7 @@ const routes = [
         component: MyProjects,
       },
       {
-        path: "/my-projects/asd",
+        path: "/my-projects/postID",
         name: "MyProjectDetail",
         component: MyProjectDetail,
       },
@@ -54,9 +54,9 @@ const routes = [
         component: Create,
       },
       {
-        path: "/users",
-        name: "User",
-        component: User,
+        path: "/account",
+        name: "Account",
+        component: Account,
       },
     ],
   },

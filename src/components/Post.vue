@@ -6,7 +6,7 @@ export default {
 
 <template>
   <router-link
-    to="/posts/asd"
+    to="/posts/postID"
     class="bg-gray-50 w-96 h-80 mx-auto block rounded-md hover:shadow"
   >
     <!-- Thumbnail -->

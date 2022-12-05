@@ -61,7 +61,7 @@ export default {};
     </div>
 
     <!-- profile image -->
-    <router-link to="/users">
+    <router-link to="/account">
       <img
         src="./../assets/avatar.jpg"
         alt=""

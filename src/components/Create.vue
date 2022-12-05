@@ -5,7 +5,7 @@ export default {
 </script>
 
 <template>
-  <div class="border border-gray-300 bg-gray-50 rounded-md p-6 mx-8">
+  <div class="border bg-gray-50 rounded-md p-6 mx-8">
     <form class="flex justify-between">
       <div class="flex flex-col w-1/2 mr-6">
         <!-- Title -->

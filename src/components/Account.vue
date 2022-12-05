@@ -1,11 +1,11 @@
 <script>
 export default {
-  name: "User",
+  name: "Account",
 };
 </script>
 
 <template>
-  <div class="border border-gray-300 bg-gray-50 rounded-md p-8 mx-8">
+  <div class="border bg-gray-50 rounded-md p-8 mx-8">
     <div class="flex flex-col items-center gap-y-2">
       <!-- Profile Photo -->
       <img
